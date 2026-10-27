@@ -1,8 +1,8 @@
-# Zero-Touch Identity: Password and Account Expiration Automation
+# Password and Account Expiration Automation
 
 **Case study** · Enterprise IT, ~2,600 users · Role: Supervisor, Onsite IT & Automation Systems (2024–2026)
 
-Scheduled PowerShell automation that warned users and their managers before passwords and accounts expired, so they could act in time instead of getting locked out. "Zero-touch" refers to IT staff: once deployed, the process ran on its own schedule with no manual steps.
+Scheduled PowerShell automation that warned users and their managers before passwords and accounts expired, so they could act in time instead of getting locked out.
 
 ---
 
@@ -24,7 +24,6 @@ I scoped and built a set of scheduled PowerShell scripts against on-premises Act
 - **Notification:** users are emailed directly with what is expiring, when, and what to do. Managers are notified where their action is needed, for example to extend an account.
 - **Policy alignment:** warning windows and rules follow the organization's Security policies for password and account expiration.
 - **Audit-ready logging:** every run and every notification is logged, so it's always possible to show who was warned and when.
-- **Unattended operation:** the scripts run on a schedule with no manual steps.
 
 ```mermaid
 flowchart TD
@@ -41,17 +40,17 @@ flowchart TD
 
 ## Result
 
+- **Coverage extended** from a limited manual process to all ~2,600 users
 - **9,000+ proactive notifications** sent to users and managers
 - An estimated **380 hours a year** of manual tracking and follow-up covered by automation
-- An estimated **up to 1,800 expiration-related service desk tickets** avoided
 - A complete **audit trail** of every warning sent
 
 ## Lessons learned
 
-- **Warn before the problem, not after.** Notifying people ahead of expiry turned a reactive ticket stream into something users handled themselves.
+- **Warn before the problem, not after.** Notifying people ahead of expiry allows users to act before they're locked out.
 - **Include the manager when the user can't act alone.** Some expirations need someone else's approval, and routing those to the manager closed the loop.
 - **Logging is what makes automation auditable.** A record of every notification answers "was this person told?" without anyone having to check by hand.
-- **Simple scheduled automation can close a real governance gap.** This needed no new platform, only reliable scripts and a clear process.
+- **Scheduled automation can close a real governance gap.** This needed no new platform, only reliable scripts and a clear process.
 
 ## Background
 
