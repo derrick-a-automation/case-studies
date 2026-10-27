@@ -20,4 +20,4 @@ Replaced an inherited, manual quarterly chargeback data-prep process with a reus
 
 ### 3. AI-Enhanced IT Intake Modernization (roadmap)
 A phased roadmap, presented to leadership, for modernizing ServiceNow intake: AI-guided request selection, automatic device capture, Virtual Agent dialogs, Predictive Intelligence routing and adaptive forms, with an illustrative ROI model.
-**[Open roadmap (PDF)](it-intake-modernization-framework/docs/)**
+**[Open case study](it-intake-modernization-roadmap/)** · [PDF](it-intake-modernization-roadmap/docs/it-intake-modernization-roadmap-case-study.pdf)
