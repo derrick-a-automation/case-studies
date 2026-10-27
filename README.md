@@ -10,7 +10,7 @@ These describe real employer work, so they contain no production code or environ
 
 ### 1. Password and Account Expiration Automation
 Scheduled PowerShell automation against on-premises Active Directory (synced to Entra ID) that replaced a limited manual process and extended proactive coverage to ~2,600 users. Sent 9,000+ notifications to users and, where their action was needed, managers, with audit-ready logging. Automated work that would have taken an estimated 380 hours a year by hand.
-**[Open case study](zero-touch-identity/)** · [PDF](zero-touch-identity/docs/)
+**[Open case study](password-account-expiration-automation/)** · [PDF](password-account-expiration-automation/docs/)
 
 ### 2. Power Query Ingestion Framework
 Replaced an inherited, manual quarterly chargeback data-prep process with a reusable Power Query ETL framework pulling from credentialed SharePoint Online sources, with output structured for validation against the vendor's year-end report. Cut recurring prep time by an estimated 70–90%, with no loss in accuracy against the source data.
