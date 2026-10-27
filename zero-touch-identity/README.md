@@ -10,7 +10,7 @@ Scheduled PowerShell automation that warned users and their managers before pass
 
 About 2,600 users were managed in on-premises Active Directory, synced to Microsoft Entra ID through Entra Connect. Password and account expirations were handled reactively: people usually found out when they could no longer sign in, which meant lost work time and a service desk ticket.
 
-There was no proactive process for this. Doing it by hand (checking expiration dates, contacting users and following up with managers) would have taken an estimated **380 hours a year**, based on industry-standard effort models for identity lifecycle operations, so in practice it wasn't being done.
+Some of this was done by hand, but only on a very limited scale. Doing it for all ~2,600 users (checking expiration dates, contacting users, following up with managers) would have taken an estimated 380 hours a year, based on industry-standard effort models for identity lifecycle operations, so it couldn’t be sustained at that scale.
 
 ## Task
 
