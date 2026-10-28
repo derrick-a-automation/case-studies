@@ -28,7 +28,7 @@ Design a reusable ingestion framework in Power Query that pulls completed charge
 - The main source of schema-related errors and rework removed
 - A reusable ingestion pattern for future datasets
 
-## Lessons learned *(draft: edit to match your experience)*
+## Lessons learned 
 
 - **Normalize before you apply business rules.** Fixing column names and types first kept every later step simple to reason about.
 - **Pattern-based file selection removes a quarterly chore.** The query adapted to new files without being edited.
